@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "jupyternotebooks"
+version = "0.1.0"
+description = ""
+authors = [
+    "{{github_username}} <{{github_email}}>" # Adjusted format for Poetry
+]
+readme = "README.md"
+package-mode = false 
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+jupyterlab = "^4.1.5" 
+pandas = "^2.2.1"     
+numpy = "^1.26.4"     
+matplotlib = "^3.8.3" 
+
+[build-system]
+requires = ["poetry-core>=1.0.0"] # Simplified requirement, Poetry manages its core version
+build-backend = "poetry.core.masonry.api"
